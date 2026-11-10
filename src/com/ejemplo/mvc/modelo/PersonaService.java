@@ -18,9 +18,9 @@ import java.util.ArrayList;
 
 public class PersonaService {
 	
-	private final PersonaRepository repositorio;
+	private final PersonaDBRepository repositorio;
 	
-	public PersonaService(PersonaRepository repositorio) {
+	public PersonaService(PersonaDBRepository repositorio) {
 		this.repositorio = repositorio;
 	}
 	
