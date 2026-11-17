@@ -14,7 +14,7 @@ import java.util.HashMap;
  * 
  */
 
-public class PersonaMemoryRepository {
+public class PersonaRepositoryMemory implements PersonaRepository {
 	
 	// Esto funciona como "una base de datos" en memoria.
 	private final HashMap<Long, Persona> personas 

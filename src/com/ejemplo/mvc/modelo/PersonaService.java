@@ -18,11 +18,11 @@ import java.util.ArrayList;
 
 public class PersonaService {
 	
-	private final PersonaDBRepository repositorio;
+	private final PersonaRepository repositorio;
 	
-	public PersonaService(PersonaDBRepository repositorio) {
+	public PersonaService(PersonaRepository repositorio) {
 		this.repositorio = repositorio;
-	}
+	}	
 	
 	public ArrayList<Persona> listar() {
 		return repositorio.findAll();

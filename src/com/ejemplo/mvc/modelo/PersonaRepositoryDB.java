@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 import com.ejemplo.mvc.db.ConnectionDB;
 
-public class PersonaDBRepository {
+public class PersonaRepositoryDB implements PersonaRepository {
 
 	public ArrayList<Persona> findAll() {
 		ArrayList<Persona> lista = new ArrayList<Persona>();
